@@ -1,0 +1,254 @@
+#pikachu-conatiner {
+    display: flex;
+    Height: 100%;
+    width: 25%;
+}
+
+#right-body-container {
+    height: 100%;
+    width: 200px;
+    position: relative;
+}
+
+#tail-container {
+    transform: rotate(-15deg);
+    height: 300px;
+    width: 100%;
+    position: absolute;
+    left: -60px
+        /* cant figure out how to push the tail parts to the right
+  align-content: right;*/
+}
+
+.tail {
+    background-color: gold;
+    position: absolute;
+
+}
+
+.top-tail-h {
+    height: 60px;
+    width: 150px;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(180deg, rgba(2, 0, 36, 1) 10%, rgba(255, 215, 0, 1) 50%);
+    left: 50px;
+    top: 220px;
+
+}
+
+.top-tail-v {
+    height: 60px;
+    width: 40px;
+    top: 270px;
+    left: 50px;
+
+}
+
+.middle-tail-h {
+    height: 22px;
+    width: 55px;
+    top: 308px;
+    left: 15px;
+
+}
+
+.middle-tail-v {
+    height: 50px;
+    width: 18px;
+    background: rgb(255, 215, 0);
+    background: linear-gradient(180deg, rgba(255, 215, 0, 1) 15%, rgba(173, 97, 74, 1) 60%);
+    top: 320px;
+    left: 15px;
+
+}
+
+/*.bottom-tail {
+  height: 50px;
+  width: 15px;
+  background: rgb(255,215,0);
+  background: linear-gradient(180deg, rgba(255,215,0,1) 0%, rgba(173,97,74,1) 50%);
+}*/
+
+.bottom-tail-h {
+    height: 15px;
+    width: 33px;
+    background: rgba(173, 97, 74);
+    top: 360px;
+}
+
+#left-body-container {
+    height: 60%;
+    width: 200px;
+    position: relative;
+
+}
+
+#ear-container {
+    top: 10px;
+    display: flex;
+    height: 150px;
+    width: 200px;
+    margin: auto;
+    position: relative;
+}
+
+.ear {
+    clip-path: polygon(50% 0, 100% 100%, 0 100%);
+    width: 50px;
+    height: 150px;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(180deg, rgba(2, 0, 36, 1) 40%, rgba(255, 215, 0, 1) 30%);
+    margin: auto;
+
+}
+
+.left-ear {
+    transform: skew(14deg);
+    position: absolute;
+    transform: rotate(-15deg)
+}
+
+.right-ear {
+    transform: skew(-14deg);
+    position: absolute;
+    left: 150px;
+    transform: rotate(15deg)
+}
+
+#head-container {
+    height: 200px;
+    width: 200px;
+    position: relative;
+
+
+}
+
+.head {
+    background: gold;
+    display: flex;
+    position: absolute;
+
+}
+
+.top-head {
+    border-radius: 15% 15% 35% 35%;
+    height: 100px;
+    width: 200px;
+
+}
+
+.bottom-head {
+    border-radius: 25% 25% 75% 75%;
+    height: 125px;
+    width: 200px;
+    justify-content: center;
+    top: 75px;
+
+
+
+}
+
+.eye {
+    border-radius: 50%;
+    background: black;
+    height: 35px;
+    width: 35px;
+    margin: auto;
+}
+
+.pupil {
+    border-radius: 50%;
+    background: white;
+    border: 7px solid white;
+    height: 7px;
+    width: 7px;
+    margin: auto;
+}
+
+.cheek {
+    border-radius: 50%;
+    border: 2px solid black;
+    background: indianred;
+    height: 30px;
+    width: 30px;
+    margin-top: 15%;
+
+}
+
+.left-cheek {
+    margin-right: 10%;
+
+}
+
+.right-cheek {
+    margin-left: 10%
+}
+
+#mouth {
+    height: 35px;
+    width: 25px;
+    background: orange;
+    border: 3px solid transparent;
+    border-radius: 10% 10% 100% 100%;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    margin-top: 20%;
+}
+
+#body-container {
+    position: absolute;
+    display: flex;
+    top: 325px
+}
+
+.arm {
+    height: 100px;
+    width: 20px;
+    background: gold;
+    position: absolute;
+    border: 1px solid black;
+    top: 15px;
+}
+
+.left-arm {
+    left: 10px;
+    transform: rotate(15deg)
+}
+
+.mid-section {
+    border-radius: 10% 10% 10% 10%;
+    height: 150px;
+    width: 200px;
+    background: gold;
+    left: 20px;
+}
+
+.right-arm {
+    left: 165px;
+    transform: rotate(-15deg)
+}
+
+.foot {
+    height: 20px;
+    width: 40px;
+    background: gold;
+    position: relative;
+    top: 125px;
+    border-radius: 10px 10px 5px 5px;
+}
+
+#feet-container {
+    position: relative;
+    display: flex;
+    height: 30px;
+    width: 200px;
+    justify-content: center
+}
+
+.right-foot {
+    left: 30px;
+}
+
+.left-foot {
+    right: 30px;
+}
