@@ -1,7 +1,8 @@
 #pikachu-conatiner {
     display: flex;
-    Height: 100%;
+    Height: 60%;
     width: 25%;
+    margin: 0;
 }
 
 #right-body-container {
@@ -143,10 +144,8 @@
     width: 200px;
     justify-content: center;
     top: 75px;
-
-
-
 }
+
 
 .eye {
     border-radius: 50%;
@@ -155,6 +154,10 @@
     width: 35px;
     margin: auto;
 }
+
+/* #pikachu-conatiner:hover .top-head {
+    padding-bottom: 5px;
+} */
 
 .pupil {
     border-radius: 50%;
@@ -211,9 +214,11 @@
 }
 
 .left-arm {
-    left: 10px;
+    left: 15px;
     transform: rotate(15deg)
 }
+
+
 
 .mid-section {
     border-radius: 10% 10% 10% 10%;
@@ -224,9 +229,31 @@
 }
 
 .right-arm {
-    left: 165px;
+    left: 160px;
     transform: rotate(-15deg)
 }
+
+#pikachu-conatiner:hover .right-arm {
+    left: 165px;
+    transform: rotate(15deg)
+}
+
+#pikachu-conatiner:hover .left-arm {
+    left: 15px;
+    transform: rotate(-15deg)
+
+}
+
+#pikachu-conatiner:hover .right-foot {
+    left: 20px;
+
+}
+
+#pikachu-conatiner:hover .left-foot {
+    right: 20px;
+
+}
+
 
 .foot {
     height: 20px;
